@@ -1,0 +1,73 @@
+/* login_register.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px; /* Increased width for the larger box */
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 22px;
+    text-align:center ;
+    align-items: center;
+}
+
+form {
+    text-align: left;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px; /* Increased margin for even spacing */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 15px 157px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: tomato;
+}
+
+.error-message {
+    text-align: center;
+    margin-top: 10px;
+    color: #f00;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+}
